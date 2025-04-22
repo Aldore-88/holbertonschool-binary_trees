@@ -2,9 +2,11 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
+ * binary_tree_node - new binary tree node
+ * @parent: parent node
+ * @value: value to be put into new node
  *
- *
- *
+ * Return: return new_node
  *
  */
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)
